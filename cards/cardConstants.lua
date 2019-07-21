@@ -1,12 +1,17 @@
 local cardList = {}
 
-local obj = require('cards.typeConstants')
+local constants = require('cards.typeConstants')
+local nature = constants.nature
+local special = constants.special
+
+-- TODO: DELETE ME 
 print('hey ')
-print(obj.nature.weapon)
+print(nature.weapon)
   
 local hache = {}
 hache.id = 001
--- hache.type = 
+hache.nature = nature.weapon
+hache.special = special.violent
 hache.name = 'Hache'
 hache.attack = 6
 hache.def = -2
