@@ -3,6 +3,7 @@ love.graphics.setDefaultFilter("nearest")
 love.window.setMode(960,540)
 love.window.setTitle('Pargo')
 
+local const = require('cards.cardConstants')
 
 function love.load(arg)
 if arg[#arg] == "-debug" then require("mobdebug").start() end
