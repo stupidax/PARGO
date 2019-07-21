@@ -1,0 +1,190 @@
+------------------------------
+
+	VALEDIEM
+
+------------------------------
+
+Le jeu de Pargo
+
+Principe du jeu : 
+_________________
+
+* Le jeu est un jeu d'aventure où le hero progresse à travers le monde par des dialogues et des combats. 
+	- Il n'y pas de déplacement indirect, le personne va de lieu en lieu juste un indiquant les choix sur sa carte du monde ou dans des listes.
+	- De même chaque déplacement dans les zones d'un lieu se fait par une liste de choix.
+	- Certains choix sont contraints par les caractéristiques du personnage et les relations qu'il entretien avec la zone : réputation, influence, relation etc.
+	- Les choix peuvent aussi dépendre de l'alignement du personnage.
+* Les combats possèdent un système spécifique, qui fait la base principal du jeu : avec des cartes. 
+	- Il se déroule en tour par tour, de manière simultané : les cartes étant choisies et jouées face cachées puis révélée et résolue en même temps.
+	- Les cartes se combine entre-elle et s'additionne donnant un systeme attaque/défense/rapidité/dégât.
+	- Les cartes popssède aussi un alignement permettant un systeme combo par type de carte.
+	- Les caractéristiques du hero, les capacités apprises et son inventaire permettent d'avoir plus de carte
+* La progression se fait à force de combat, mais aussi en gagnant de l'influence sur des personnes ou des lieux et sur les choix tactiques de l'histoire.
+	- Le hero peut acheter de l'équipement qui fourni des cartes.
+	- Le hero peut apprendre des techniques qui fourni des cartes.
+	- Le hero peut débloquer dans certaines situation des cartes (relation, trouvaille, etc.)
+* Pour plus d'immersion le joueur peut créer l'avatar de son héro.
+* Il existe aussi plusieurs fins différentes, offrant de la rejouabilité.
+
+
+Règles de combat :
+__________
+
+Chaque combat est une forme de duel, le hero contre l'adversaire.
+
+Le plateau "imaginé" fait 2 cases de côté pour chaque camp, soit 4 cases:
+Flanc gauche / Flanc droit
+	  [] []
+	  [] []
+
+* Chaque joueur doit infliger autant de dégât que de santé de l'ennemi pour gagner
+* Au début d"un combat chacun possède toutes ces cartes en main : action, arme, armure etc.
+* Le combat se déroule en passe d'arme, ces passes sont régies par l'endurance de chaque camp qui diminue en fonction des cartes jouées (chaque carte possède un coût en souffle)
+* Si personne ne peut jouer de carte (plus de souffle ou plus de carte), la passe se termine. 
+	- les cartes sont défaussées 
+	- les combo lié au type de carte s'applique 
+	- et une nouvelle passe commence avec les cartes restantes de chacun.
+* Si plus personne n'a de carte, une nouvelle manche commence, les joueurs récupères les cartes de leur choix, moins leur blessures ou malus subit.
+* Les cartes doivent être jouées en respectant des contraintes d'utilisation spécifique : 
+	- Une seul arme par passe
+	- Pas de carte de tir si on a utilisée une arme dans la passe
+	- Pas possible de jouer sur une autre carte, sauf si cela est autorisé etc.
+	- etc.
+
+Les Cartes : 
+____________
+* Les cartes ont plusieurs critère qui les définissent : 
+	- Le nom, l'image, le type de carte (Arme, Armure, Action etc.)
+	- Les valeures : Attaque Défense Dégât Priorité Souffle
+	- L'alignement.
+* les dégâts sont infligé à chaque passe dès lors que l'attaque est strictement supérieure à la défense sur l'un des flancs d'un côté ou de l'autre.
+	- Il est possible d'obtenir ou de subir plusieurs dégâts de chaque côté si toutes les colonnes ne sont pas défendues ou attaqués. 
+* Chacun joue une carte chacun son tour face cachée sur un des deux flancs de son côté, les cartes sont révélées en même temps, et sont résolues dans l'ordre de priorité.
+* certaine carte permettent de jouer par dessus une autre (elle vont alors s'additionner) et certaine carte ne le permettent pas.
+* Certaine carte défausse des cartes adverses ou ses propres cartes.
+* Certaine carte peuvent être joué sur les flancs adverses.
+* la passe se termine quand plus personne n'a d'endurance ou ne peut jouer de carte.
+* On récupère alors ses carte en fonction de ses blessures ou malus, l'endurance remonte. 
+	- subir trop de dégât peut engendrer des malus.
+	- certaine carte créer des malus d'endurance également.
+
+
+Les cartes possèdes des flèche pour représenter leurs attaque et défense :
+attaque X	appliqué sur un flanc si elle est strictement supérieure à la défense les dégâts sont infligés
+défense X	appliqué sur un flanc, si elle est également ou supérieur à l'attaque l'attaque est défendue
+dégât X		le hero possède des caractéristiques de dégât en base, mais les cartes peuvent augmenter ou diminuer cette valeur (sur le flanc concerné uniquement)
+priorité X	le hero possède une caractértistique de priorité en base, mais les cartes peuvent augmenter ou diminuer cette valeur (uniquement sur la passe)
+Souffle X	le coût en endurance de la carte, le hero possède une endurance de base qui diminue à chaque carte jouée.
+
+Chaque personnage possède lui aussi des caractéristiques : 
+Endurance = nombre de souffle possible de jouer par passe
+Santé = point de vie avant de mourrir
+Force = dégâts de base augmenté par les cartes lorsqu'il touche.
+
+Maîtrise = niveau de statistiques
+Grade = niveau d'affrontement
+
+Les cartes possèdent un type et un alignement :
+Type	Nom		Effet
+AC	Action		se réalise
+AR	Arme		se réalise compte comme une arme (ne peut jouer plus de deux armes 1M ou une arme 2M par passe)
+PR	Projectile	se réalise compte comme un projectile  (ne peut jouer d'armure dans la même passe)
+AM	Armure		se réalise compte comme une armure (ne peut jouer de projectile dans la même passe)
+TR	Trahison 	se pose sur un emplacement adverse
+
+L'alignement représenté par des petites icones, permet de réaliser des effets supplémentaire en accumulant des associations de chaque alignement.
+Aucun		aucun effet
+Violence	inflige des dégâts à la fin de la passe
+Fourberie	applique des malus à la fin de la passe
+Heroïsme	applique des bonus à la finde la passe
+etc.
+
+Les cartes possèdes aussi des capacités : 
+
+Hémoragie = si la colonne à DEF = 0 alors dégât +X
+Lacération = ATQ les 2 colonnes en même temps
+Bouclier = annule une carte Projectile
+Projectile = annule une carte avec la capacité esquive
+Esquive = annule une carte action ou arme
+Enchainnement = possibilité de jouer par dessus (s'additionne avec la carte en dessous)
+Renfort = piocher une carte dans la défausse de souffle inférieur ou égal à la valeur de la carte renfort
+Perforant = diminue une armure (pour le reste du combat)
+fatigue = retire une carte d'un des défausse (en fonction de la carte)
+Désarmement = annule une carte arme
+Allonge = en cas d'égalité remporte le flanc
+Vigilance = annule un piège
+Execution = annule une trahison
+etc.
+
+
+
+Déroulement :
+_____________
+
+Le jeu consiste à faire des combats contre des adversaires de plus en plus fort.
+Après chaque combat le personnage se trouve dans une situation où il va pouvoir faire un choix stratégique sur
+son évolution dans l'histoire. Suivre tel voie, s'allier avec tel château, partir à l'aventure etc.
+ses choix le conduiront à un chemin différent, pour plusieurs fin du jeu possible.
+chaque combat va lui rapporter de l'expérience pour augmenter sa maîtrise et parfois de l'or ou de l'influence.
+--> choix entre xp et or ? il peut gagner de l'influence, dépenser pour certains choix
+ou pour acheter des cartes ou pour négocier des prix.
+il y a un niveau maximum de maîtrise. 
+A voir [[Se joue façon rogue-like ? avec perma-death ?]]
+avec l'expérience il augmente sa maîtrise, avec l'or il peut acheter arme ou armure ou projectile.
+system de faction.
+
+(à venir pour plus tard) : Les tournois à plusieurs ou en duel. (PVP)
+
+Cartes :
+__________
+
+Carte : 
+édition				Type	ATQ	DEF	PRIO		Capacité 1	Capacité 2	Endurance
+1ère édition : 
+1/9-1 Frappe : 			AC	ATQ 4 	DEF 0	PRIO +7		Maîtrise	-		2
+2/9-1 Parade : 			AC	ATQ 0	DEF 4	PRIO +5		Maîtrise	-		2
+3/9-1 Estoc : 			AR	ATQ 8 	DEF 0	PRIO +2		Hémoragie	-		3
+4/9-1 Fendre : 			AR	ATQ 6 	DEF 0	PRIO -2		Lacération 	-		4
+5/9-1 Tir : 			FL	ATQ 7 	DEF 0	PRIO +9		Flèche		-		1
+6/9-1 Roulade : 		AC	ATQ 0	DEF 6	PRIO +3		Esquive		-		3
+7/9-1 Gambison : 		AM	ATQ 0	DEF10	PRIO +9		-		-		0
+8/9-1 Feinte : 			AC	ATQ 2 	DEF 2	PRIO +7		Maîtrise	-		1
+9/9-1 Allié : 			AC	ATQ 0	DEF 4	PRIO -3		Renfort 	-		1
+
+2ème édition : 
+1/9-2 Traquenar : 		PG	ATQ 2	DEF 0			Piège		-		1
+2/9-2 Embuscade : 		PG	ATQ 1	DEF 0			Epée		-		1
+3/9-2 Cavalerie : 		AC	ATQ 2	DEF 0			Renfort		-		1
+4/9-2 Haubert : 		AM	ATQ 0	DEF 8			Fatigue		-		0
+5/9-2 Taille : 			AR	ATQ 2	DEF 0			Epée		Maîtrise	4
+6/9-2 Porte dérobée :		PG	ATQ 0	DEF 0			Maîtrise	Renfort		1
+7/9-2 Marteau de guerre : 	AR	ATQ 3	DEF 0			Perforant 	-		4
+8/9-2 Carreau : 		FL	ATQ 6	DEF 0			Flèche		Fatigue		2
+9/9-2 Targe : 			AR	ATQ 0	DEF 3			Bouclier	-		1
+
+3ème édition : 
+1/9-3 Saut : 			AC	ATQ 2 	DEF 2			-		-		2
+2/9-3 Contournement :		AC	ATQ 2	DEF 0			Esquive		-		3
+3/9-3 Rage : 			AC	ATQ 5	DEF-2			-		-		2
+4/9-3 Manoeuvre : 		AC	ATQ 0 	DEF 1			Désarmement	-		3
+5/9-3 Traitre : 		TR	ATQ 0	DEF-2			Maîtrise	-		2
+6/9-3 Abri : 			AC	ATQ 0 	DEF 2			Renfort		-		1
+7/9-3 Pavois : 			AR	ATQ 0	DEF 8			Bouclier	Fatigue		2
+8/9-3 Empoisonneur 		TR	ATQ-1	DEF 0			Maîtrise	Fatigue		1
+9/9-3 Felon : 			TR	ATQ 2	DEF 0			Désarmement	Fatigue		1
+
+4ème édition : 
+1/9-4 Lance : 			AR	ATQ 3 	DEF 0			Allonge		-		3
+2/9-4 Lancé de couteau :	FL	ATQ 1	DEF 0			Flèche		Maîtrise	2
+3/9-4 Pourpoint : 		AM	ATQ 0	DEF 3			Maîtrise	-		0
+4/9-4 Eclaireur  		AC	ATQ 0 	DEF 0			Maîtrise	Renfort		1
+5/9-4 Assaut : 			AC	ATQ 4	DEF-2			Maîtrise	-		2
+6/9-4 Charge : 			AC	ATQ 1 	DEF 0			Allonge		Maîtrise	1
+7/9-4 Prisonnier :		TR	ATQ 0	DEF 0			Renfort		-		1
+8/9-4 Crevasse :		PG	ATQ 0	DEF 2			Esquive		-		2
+9/9-4 Hache d'armes : 		AR	ATQ 9	DEF 0			Épée		Perforant	5
+
+
+
+
+

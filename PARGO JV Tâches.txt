@@ -1,0 +1,42 @@
+--------------------------------------
+
+	VALEDIEM : Le jeu de Pargo
+
+--------------------------------------
+
+* Etape de conception :
+
+Phase ALPHA : 
+_____________
+
+COMBAT :
+--------
+- Définition des objets
+- Synopsis des relations
+- Asset graphique
+- Animations
+- Création des cartes
+- Création d'une IA basique : joue au hasard ce qu'elle peut.
+
+
+But : Prototype de combat contre IA pour test des règles et du gameplay.
+_____
+
+si principe de combat : ok, amélioration du protoype
+lancement de la phase Aventure.
+
+AVENTURE : 
+----------
+- Définition des objets
+- Synopsis des relations
+- Asset graphique
+- Animations
+- Liste de choix basique pour projet démo
+
+But : Création d'un prototype de démo avec début combat, évolution, combat de boss, fin du jeu.
+
+Si principe ok, création du menu et étoffement du contenu de jeu.
+
+Elaboration des histoires, des factions, relations etc.
+
+Bonne chance Team !
