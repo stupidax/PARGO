@@ -93,27 +93,27 @@ AM	Armure		se réalise compte comme une armure (ne peut jouer de projectile dans 
 TR	Trahison 	se pose sur un emplacement adverse
 
 L'alignement représenté par des petites icones, permet de réaliser des effets supplémentaire en accumulant des associations de chaque alignement.
-Aucun		aucun effet
-Violence	inflige des dégâts à la fin de la passe
-Fourberie	applique des malus à la fin de la passe
-Heroïsme	applique des bonus à la finde la passe
+NEUTRAL 	aucun effet
+VIOLENCE	inflige des dégâts à la fin de la passe
+MALICE		applique des malus à la fin de la passe
+HEROIC		applique des bonus à la finde la passe
 etc.
 
 Les cartes possèdes aussi des capacités : 
 
-Hémoragie = si la colonne à DEF = 0 alors dégât +X
-Lacération = ATQ les 2 colonnes en même temps
-Bouclier = annule une carte Projectile
-Projectile = annule une carte avec la capacité esquive
-Esquive = annule une carte action ou arme
-Enchainnement = possibilité de jouer par dessus (s'additionne avec la carte en dessous)
-Renfort = piocher une carte dans la défausse de souffle inférieur ou égal à la valeur de la carte renfort
-Perforant = diminue une armure (pour le reste du combat)
-fatigue = retire une carte d'un des défausse (en fonction de la carte)
-Désarmement = annule une carte arme
-Allonge = en cas d'égalité remporte le flanc
-Vigilance = annule un piège
-Execution = annule une trahison
+BLEED		Hémoragie = si la colonne à DEF = 0 alors dégât +X
+CLEAVE		Lacération = ATQ les 2 colonnes en même temps
+SHIELD		Bouclier = annule une carte Projectile
+PROJECTILE	Projectile = annule une carte avec la capacité esquive
+DODGE		Esquive = annule une carte action ou arme
+CHAIN		Enchainnement = possibilité de jouer par dessus (s'additionne avec la carte en dessous)
+BRACE		Renfort = piocher une carte dans la défausse de souffle inférieur ou égal à la valeur de la carte renfort
+PIERCING	Perforant = diminue une armure (pour le reste du combat)
+TIRED		Fatigue = retire une carte d'un des défausse (en fonction de la carte)
+DISARM		Désarmement = annule une carte arme
+RANGE		Allonge = en cas d'égalité remporte le flanc
+VIGILANCE	Vigilance = annule un piège
+EXECUTE		Execution = annule une trahison
 etc.
 
 
