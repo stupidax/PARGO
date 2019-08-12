@@ -4,10 +4,15 @@ love.window.setMode(960,540)
 love.window.setTitle('Pargo')
 
 local const = require('cards.cardConstants')
+local Card = require('cards.Card')
 require('quadCreation')
 
 function love.load(arg)
 if arg[#arg] == "-debug" then require("mobdebug").start() end
+
+-- Card creation test / To be deleted
+local t = Card:new{1}
+if t then print(t.id) end
 
 --provisoire
 --bg

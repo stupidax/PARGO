@@ -1,9 +1,14 @@
 local Card = {}
 
 local cards = require('cards.cardConstants')
-Card.class = 'Card'
+local Utils = require('tools.Utils')
+--Card.class = 'Card'
 
 function Card:new(id)
-  local card
+  local card = {}
+  card = Utils.clone(cards['hache']) -- use ID
+  --card = cards['hache']
   return card
 end
+
+return Card
