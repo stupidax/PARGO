@@ -20,6 +20,7 @@ hache.damage = 6
 hache.priority = -2
 hache.skill1 = 'string'
 hache.skill2 = nil
+hache.side = 'player'
 
 
 cardList['hache'] = hache
