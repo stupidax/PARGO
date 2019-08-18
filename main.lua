@@ -3,13 +3,19 @@ love.graphics.setDefaultFilter("nearest")
 love.window.setMode(960,540)
 love.window.setTitle('Pargo')
 
-local const = require('cards.cardConstants')
-local Card = require('cards.Card')
 require('quadCreation')
 require('cards.drawCard')
 
+local const = require('cards.cardConstants')
+local Card = require('cards.Card')
+local BController = require('board.BoardController')
+local boardController
+
+
 function love.load(arg)
 if arg[#arg] == "-debug" then require("mobdebug").start() end
+
+boardController = BController:new({}, {})
 
 -- Card creation test / To be deleted
 t = Card:new{1}
@@ -76,16 +82,19 @@ love.graphics.draw(test)
 drawCard(t, 1)
 
 
-  
-  
-  
+end
+
+function love.mousepressed(x,y)
+  print('mousepressed x:',x)
+  print('mousepressed y:',y)
+-- First send the key to the game controller which decide if it goes to the boardController
+  boardController.onKey(x,y)
+
 end
 
 function love.keypressed(key)
 --quit
-if key == 'escape' then
-  love.event.push('quit')
-end
-  
-  
+  if key == 'escape' then
+    love.event.push('quit')
+  end
 end

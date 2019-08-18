@@ -1,15 +1,18 @@
-local Model = require('board.BoardModel')
-
 local Board = {}
-local model
 
 function Board:new(p1, p2)
-  local o = {}
-  setmetatable(o, Board)
-  o.p1 = p1
-  o.p2 = p2
-  model = Model:new()
-  return o
+  setmetatable(self, Board)
+  self.p1 = p1
+  self.p2 = p2
+  self.id = 1
+  return self
+end
+
+-- HELP ! Pourquoi ça fonctionne pas ?
+function Board:onKey(x,y)
+  print('Board::onKey x:',x)
+  print('Board::onKey y:',y)
+  print('--------------------')
 end
 
 return Board
