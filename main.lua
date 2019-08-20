@@ -57,13 +57,13 @@ selection = {}
 selection.img = love.graphics.newImage('asset/baseSelection.png')
 selection.quad = quadCreation(selection.img, 76, 110)
 
-  --font
-  font = love.graphics.newImageFont('asset/baseFont.png',
-    "abcdefghijklmnopqrstuvwxyz"..
-    "éèöäç;à"..
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZ"..
-    ".:!?-+0123456789 ")
-  love.graphics.setFont(font)
+-- font
+font = love.graphics.newImageFont('asset/baseFont.png',
+  "abcdefghijklmnopqrstuvwxyz"..
+  "éèöäç;à"..
+  "ABCDEFGHIJKLMNOPQRSTUVWXYZ"..
+  ".:!?-+0123456789 ")
+love.graphics.setFont(font)
 
 end
 
@@ -88,7 +88,7 @@ function love.mousepressed(x,y)
   print('mousepressed x:',x)
   print('mousepressed y:',y)
 -- First send the key to the game controller which decide if it goes to the boardController
-  boardController.onKey(x,y)
+  boardController:onKey(x,y)
 
 end
 
